@@ -26,8 +26,7 @@ java code.
 builder.
 – Java OOP features were essential to implement this project
 
-## Project grading:
-The project was given a grade of A+
+
 
 ## Gameplay:
 You start the game on a 2D plane, you have a number of walls that differs according to the difficulty,
