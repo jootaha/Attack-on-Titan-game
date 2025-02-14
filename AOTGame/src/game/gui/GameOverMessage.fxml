@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.gui.BattleController">
+   <children>
+      <ImageView fitHeight="567.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="679.0" layoutY="413.0" mnemonicParsing="false" onAction="#exitGame" style="-fx-background-color: black; -fx-border-color: red; -fx-text-fill: red;" text="Exit">
+         <font>
+            <Font name="MS Gothic" size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="206.0" layoutY="413.0" mnemonicParsing="false" onAction="#switchToStartScene" prefHeight="47.0" prefWidth="187.0" style="-fx-background-color: black; -fx-text-fill: red; -fx-border-color: red;" text="Play Game">
+         <font>
+            <Font name="MS Gothic" size="27.0" />
+         </font>
+      </Button>
+      <Label fx:id="lscore" layoutX="226.0" layoutY="54.0" onInputMethodTextChanged="#finalScore" prefHeight="82.0" prefWidth="534.0" text="Your Score  is :#####  " textFill="RED">
+         <font>
+            <Font name="Chiller" size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="427.0" layoutY="14.0" mnemonicParsing="false" onAction="#finalScore" style="-fx-background-color: BLACK; -fx-text-fill: RED; -fx-border-color: RED;" text="Find Out Your Score" />
+   </children>
+</AnchorPane>

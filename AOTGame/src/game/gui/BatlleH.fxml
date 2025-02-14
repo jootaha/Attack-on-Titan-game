@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="a" prefHeight="1050.0" prefWidth="1500.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.gui.BattleController">
+   <children>
+      <ImageView fitHeight="101.0" fitWidth="112.0" layoutX="8.0" layoutY="66.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="112.0" layoutX="8.0" layoutY="186.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="112.0" layoutX="10.0" layoutY="308.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="113.0" layoutX="11.0" layoutY="537.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="112.0" layoutX="9.0" layoutY="433.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="582.0" fitWidth="1253.0" layoutX="130.0" layoutY="67.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="301.0" layoutX="389.0" layoutY="910.0">
+         <image>
+            <Image url="@../../../../../../Downloads/pngtree-green-christmas-bar-title-box-png-image_2460140-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="301.0" layoutX="1032.0" layoutY="910.0">
+         <image>
+            <Image url="@../../../../../../Downloads/pngtree-green-christmas-bar-title-box-png-image_2460140-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="301.0" layoutX="706.0" layoutY="910.0">
+         <image>
+            <Image url="@../../../../../../Downloads/pngtree-green-christmas-bar-title-box-png-image_2460140-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="301.0" layoutX="89.0" layoutY="910.0">
+         <image>
+            <Image url="@../../../../../../Downloads/pngtree-green-christmas-bar-title-box-png-image_2460140-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <GridPane fx:id="gpp" layoutX="130.0" layoutY="69.0" prefHeight="582.0" prefWidth="1253.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="220.0" minHeight="10.0" prefHeight="20.80000000000001" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="188.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="155.0" minHeight="10.0" prefHeight="108.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="114.0" minHeight="10.0" prefHeight="113.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TilePane GridPane.columnIndex="13" />
+         </children>
+      </GridPane>
+      <VBox layoutX="1383.0" layoutY="136.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#changetext" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: black; -fx-border-color: lightgreen;" text="Pass Turn" textFill="#10ff00">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+         </children></VBox>
+      <HBox layoutX="628.0" layoutY="791.0" prefHeight="26.0" prefWidth="115.0" />
+      <HBox layoutX="917.0" layoutY="791.0" prefHeight="29.0" prefWidth="113.0" />
+      <TextArea fx:id="topTextArea" editable="false" layoutX="155.0" prefHeight="0.0" prefWidth="1153.0" promptText="Start Game" style="-fx-background-color: lightgreen;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="Health1text" layoutX="35.0" layoutY="45.0" style="-fx-background-color: black; -fx-border-color: lightgreen;" text="Health : 0" textFill="#40ff00">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Health2text" layoutX="35.0" layoutY="167.0" style="-fx-background-color: black; -fx-border-color: lightgreen;" text="Health : 0" textFill="#40ff00">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Health3text" layoutX="36.0" layoutY="292.0" style="-fx-background-color: black; -fx-border-color: lightgreen;" text="Health : 0" textFill="#40ff00">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Health4text" layoutX="35.0" layoutY="412.0" style="-fx-background-color: black; -fx-border-color: lightgreen;" text="Health : 0" textFill="#40ff00">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="Health5text" layoutX="35.0" layoutY="515.0" style="-fx-background-color: black; -fx-border-color: lightgreen;" text="Health : 0" textFill="#40ff00">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="dangerlevel1text" layoutX="19.0" layoutY="146.0" style="-fx-background-color: black; -fx-text-fill: red; -fx-border-color: red;" text="DangerLevel : 0">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="dangerlevel2text" layoutX="19.0" layoutY="271.0" style="-fx-background-color: black; -fx-text-fill: red; -fx-border-color: red;" text="DangerLevel : 0">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="dangerlevel3text" layoutX="18.0" layoutY="392.0" style="-fx-background-color: black; -fx-text-fill: red; -fx-border-color: red;" text="DangerLevel : 0">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="dangerlevel4text" layoutX="18.0" layoutY="495.0" style="-fx-background-color: black; -fx-text-fill: red; -fx-border-color: red;" text="DangerLevel : 0">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="dangerlevel5text" layoutX="21.0" layoutY="626.0" style="-fx-background-color: black; -fx-text-fill: red; -fx-border-color: red;" text="DangerLevel : 0">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Button fx:id="p2" layoutX="176.0" layoutY="939.0" mnemonicParsing="false" onAction="#p22" style="-fx-background-color: transparent;" text="2" underline="true" />
+      <Button fx:id="p1" layoutX="134.0" layoutY="939.0" mnemonicParsing="false" onAction="#p11" style="-fx-background-color: transparent;" text="1" underline="true" />
+      <Button fx:id="p4" layoutX="272.0" layoutY="939.0" mnemonicParsing="false" onAction="#p44" style="-fx-background-color: transparent;" text="4" underline="true" />
+      <Button fx:id="p5" layoutX="317.0" layoutY="939.0" mnemonicParsing="false" onAction="#p55" style="-fx-background-color: transparent;" text="5" underline="true" />
+      <Button fx:id="p3" layoutX="221.0" layoutY="939.0" mnemonicParsing="false" onAction="#p33" style="-fx-background-color: transparent;" text="3" underline="true" />
+      <Button fx:id="s1" layoutX="428.0" layoutY="939.0" mnemonicParsing="false" onAction="#s11" style="-fx-background-color: transparent;" text="1" underline="true" />
+      <Button fx:id="s2" layoutX="477.0" layoutY="939.0" mnemonicParsing="false" onAction="#s22" style="-fx-background-color: transparent;" text="2" underline="true" />
+      <Button fx:id="s4" layoutX="567.0" layoutY="939.0" mnemonicParsing="false" onAction="#s44" style="-fx-background-color: transparent;" text="4" underline="true" />
+      <Button fx:id="s3" layoutX="521.0" layoutY="939.0" mnemonicParsing="false" onAction="#s33" style="-fx-background-color: transparent;" text="3" underline="true" />
+      <Button fx:id="s5" layoutX="606.0" layoutY="939.0" mnemonicParsing="false" onAction="#s55" style="-fx-background-color: transparent;" text="5" underline="true" />
+      <Button fx:id="v1" layoutX="745.0" layoutY="939.0" mnemonicParsing="false" onAction="#v11" style="-fx-background-color: transparent;" text="1" underline="true" />
+      <Button fx:id="v3" layoutX="815.0" layoutY="939.0" mnemonicParsing="false" onAction="#v33" style="-fx-background-color: transparent;" text="3" underline="true" />
+      <Button fx:id="v4" layoutX="856.0" layoutY="939.0" mnemonicParsing="false" onAction="#v44" style="-fx-background-color: transparent;" text="4" underline="true" />
+      <Button fx:id="v2" layoutX="775.0" layoutY="939.0" mnemonicParsing="false" onAction="#v22" style="-fx-background-color: transparent;" text="2" underline="true" />
+      <Button fx:id="v5" layoutX="899.0" layoutY="939.0" mnemonicParsing="false" onAction="#v55" style="-fx-background-color: transparent;" text="5" underline="true" />
+      <Button fx:id="w1" layoutX="1072.0" layoutY="939.0" mnemonicParsing="false" onAction="#w11" style="-fx-background-color: transparent;" text="1" underline="true" />
+      <Button fx:id="w3" layoutX="1155.0" layoutY="939.0" mnemonicParsing="false" onAction="#w33" style="-fx-background-color: transparent;" text="3" underline="true" />
+      <Button fx:id="w4" layoutX="1208.0" layoutY="939.0" mnemonicParsing="false" onAction="#w44" style="-fx-background-color: transparent;" text="4" underline="true" />
+      <Button fx:id="w5" layoutX="1253.0" layoutY="939.0" mnemonicParsing="false" onAction="#w55" style="-fx-background-color: transparent;" text="5" underline="true" />
+      <Button fx:id="w2" layoutX="1114.0" layoutY="939.0" mnemonicParsing="false" onAction="#w22" style="-fx-background-color: transparent;" text="2" underline="true" />
+      <ImageView fitHeight="221.0" fitWidth="287.0" layoutX="86.0" layoutY="641.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13;">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="287.0" layoutX="392.0" layoutY="641.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="287.0" layoutX="703.0" layoutY="641.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="221.0" fitWidth="287.0" layoutX="1027.0" layoutY="641.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="170.0" layoutX="145.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(2).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="102.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="Type : PiercingCannon" />
+      <Label layoutX="102.0" layoutY="838.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="       Damage : 10" />
+      <Label layoutX="239.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="         Price : 25" />
+      <Label layoutX="242.0" layoutY="838.0" prefHeight="32.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text=" Name : Anti-TitanShell" />
+      <Label layoutX="549.0" layoutY="839.0" prefHeight="32.0" prefWidth="158.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text=" Name : LongRangeSpear" />
+      <Label layoutX="409.0" layoutY="839.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="      damage : 35" />
+      <Label layoutX="543.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="         Price : 25" />
+      <Label layoutX="404.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="  Type : SniperCannon" />
+      <Label layoutX="854.0" layoutY="839.0" prefHeight="32.0" prefWidth="158.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text=" Name :WallSpreadCannon" />
+      <Label layoutX="731.0" layoutY="839.0" prefHeight="32.0" prefWidth="125.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="      Damage : 5" />
+      <Label layoutX="851.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="          Price : 100" />
+      <Label layoutX="696.0" layoutY="799.0" prefHeight="32.0" prefWidth="158.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="Type : VolleySpreadCannon" />
+      <Label layoutX="1174.0" layoutY="838.0" prefHeight="32.0" prefWidth="158.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text=" Name : ProximityTrap" />
+      <Label layoutX="1033.0" layoutY="838.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="      Damage : 100" />
+      <Label layoutX="1185.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="          Price : 75" />
+      <Label layoutX="1046.0" layoutY="799.0" prefHeight="32.0" prefWidth="136.0" style="-fx-text-fill: black; -fx-background-color: lightgreen; -fx-font-size: 13; -fx-border-color: black;" text="     Type: Wall Trap" />
+      <ImageView fitHeight="123.0" fitWidth="195.0" layoutX="442.0" layoutY="668.0">
+         <image>
+            <Image url="@../../../../../../Downloads/SniperCannon-removebg-preview%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="104.0" layoutX="1118.0" layoutY="679.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(4).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="121.0" layoutY="870.0" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: black; -fx-text-fill: lightgreen; -fx-border-color: lightgreen; -fx-font-size: 13;" text="Please choose a lane to add the weapon">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Label layoutX="429.0" layoutY="870.0" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: black; -fx-text-fill: lightgreen; -fx-border-color: lightgreen; -fx-font-size: 13;" text="Please choose a lane to add the weapon">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Label layoutX="728.0" layoutY="870.0" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: black; -fx-text-fill: lightgreen; -fx-border-color: lightgreen; -fx-font-size: 13;" text="Please choose a lane to add the weapon">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <Label layoutX="1053.0" layoutY="870.0" prefHeight="34.0" prefWidth="243.0" style="-fx-background-color: black; -fx-text-fill: lightgreen; -fx-border-color: lightgreen; -fx-font-size: 13;" text="Please choose a lane to add the weapon">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <ImageView fitHeight="101.0" fitWidth="214.0" layoutX="743.0" layoutY="677.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/unnamed%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

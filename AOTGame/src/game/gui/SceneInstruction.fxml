@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.gui.StartController">
+   <children>
+      <ImageView fitHeight="572.0" fitWidth="1036.0" layoutX="-6.0">
+         <image>
+            <Image url="@../../../../../Attack%20on%20Titan%20project/project%20images/images.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="20.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToStartScene" style="-fx-background-color: black; -fx-border-color: red;" text="Back" textFill="RED">
+         <font>
+            <Font name="MS Gothic" size="15.0" />
+         </font></Button>
+      <Label layoutX="318.0" layoutY="35.0" text="Welcome to Attack on Titan: Utopia" textFill="#ef0000">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="94.0" text="Titans have breached through Wall Maria and are now threatening the northern border of Wall Rose at the Utopia District.&#10; As the last line of defense, it's up to you to lead the human forces and repel the Titan invasion." textFill="#ea0606">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="161.0" text="You have a really important mission to do: Defend Utopia and Wall Rose from the relentless Titan onslaught.&#10; Use your weapons and defenses to attack and defeat the titans before they destroy the wall." textFill="#ef0303">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="230.0" text="You must be alert at all times as there will be always titans approaching and with different types and different qualities. &#10;So what you have to do is to always be ready with your weapon as you set up the different weapon with various prices and attributes.&#10; With every Titan you defeat, resources from the titan gets collected as you can&#10; use these resources to upgrade your weapon and make your base sturdy." textFill="#f70606">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="332.0" text="The battle against the Titans is endless. Survive wave after wave of Titan attacks for as long as possible. &#10;Be cautious because as time passes, titans will come at the wall faster and stronger. Protect the wall" textFill="#ef0101">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
